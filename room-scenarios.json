@@ -65,14 +65,14 @@
   "Prescription Resolution": {
     "person": "Doctor Scarlet",
     "weapon": "Poison",
-    "challenge": "HELP! The janitor was found non-responsive in the Prescription Resolution Room. You notice he has the name \"Gus\" embroidered on his overalls. Use this clue to investigate WHO was with him to solve the crime.",
-    "clue": "No Detective Decoder needed to solve, check his address for the \"weapon\" clue.",
+    "challenge": "HELP! The janitor was found non-responsive in the Prescription Resolution Room. You notice he has the name \"Gus\" embroidered on his overalls. Use this clue to investigate who (SUSPECT) was with him to solve the crime. Review the patient information IN the queue to determine his cause of death (WEAPON)!",
+    "clue": "The WEAPON is his street name.",
     "patientName": "Gustav Garcia",
     "patientAliases": [
       "Gus Garcia"
     ],
     "explanation": "",
-    "version": "prescription-resolution-1"
+    "version": "prescription-resolution-2"
   },
   "Communication Error": {
     "person": "Professor Plum",

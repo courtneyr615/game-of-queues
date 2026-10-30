@@ -52,3 +52,11 @@ Open `http://localhost:3000`. For a multiplayer test, use separate browser profi
 ## Validation
 
 The build runs server-rule regressions and a four-client simulation. Local HTTP testing also verified authentication, simultaneous rolls, private state, static serving, and persistence after restarting the server.
+
+## Visual match update
+
+The package now uses the local game's exact cover, board image, wood background, lined notebook, red player scoreboard, mint investigation panel, and gold instructions border. The dice are white with black pips and remain centered on the board.
+
+Original printed room names are covered by filled custom nameplates. Data Entry and Identification face the left edge. Orders faces the right edge.
+
+Upload the complete package, including the entire public/assets folder. Redeploy, then refresh the game page. This visual update does not require creating a new room when the existing deployed service already uses the same simultaneous-game engine. Older turn-based services still require a new room.

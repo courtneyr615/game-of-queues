@@ -1,7 +1,7 @@
 import{readFileSync}from'node:fs';
 import{randomInt,randomBytes}from'node:crypto';
 export const PEOPLE=['Detective Green','Doctor Scarlet','Professor Plum','Judge Peacock','Colonel Mustard','Special Agent One'];
-export const WEAPONS=['Telephone Cord','Poison','Ice','Multi-tool','Camera','Magnifying Glass','Computer Mouse','Paper Cutter','Candlestick'];
+export const WEAPONS=['Telephone Cord','Poison','Ice','Multi-tool','Magnifying Glass','Computer Mouse','Paper Cutter','Candlestick'];
 export const ROOMS=['Casework','Desktop','Communication Error','Data Entry','Identification','Orders','AE/PC/OSF','Supervisors','Prescription Resolution'];
 export const layouts=[[0,0,5,4],[7,0,5,5],[14,0,5,5],[0,6,5,4],[0,11,5,3],[14,7,5,6],[0,15,5,4],[7,14,5,5],[14,15,5,4]],doors=[[2,4],[9,5],[16,5],[5,8],[5,12],[13,9],[2,14],[9,13],[16,14]];
 export const SCENARIOS=Object.fromEntries(Object.entries(JSON.parse(readFileSync(new URL('./room-scenarios.json',import.meta.url),'utf8'))).map(([name,value])=>[ROOMS.indexOf(name),value]));

@@ -1,0 +1,86 @@
+{
+  "Casework": {
+    "person": "Colonel Mustard",
+    "weapon": "Multi-tool",
+    "challenge": "An approved patient on Repatha with the DOB of 08/12/1961 was found bleeding and without a pulse in the Casework Room. Find out WHO was last assisting the patient and the \"reason\" they are deceased.",
+    "clue": "Use the Detective Decoder to determine the \"weapon\" used in the crime.",
+    "patientName": null,
+    "explanation": ""
+  },
+  "Desktop": {
+    "roomType": "thank-you",
+    "person": null,
+    "weapon": null,
+    "challenge": "Thank you for your help investigating the crimes! You earned 25 points for visiting Desktop.",
+    "clue": "",
+    "patientName": null,
+    "explanation": "Each player earns 25 points on their first visit. No accusation, paid clue, or patient-identification bonus question is required.",
+    "version": "desktop-thanks-1"
+  },
+  "Data Entry": {
+    "person": "Special Agent One",
+    "weapon": "Computer Mouse",
+    "challenge": "DECEASED body found in the Data Entry Room! Based on the decomposition you can determine the crime happened between 9/10/26 and 9/30/26. The numbers 1040 were on an object found at the scene of the crime. Don't forget to investigate WHO was with the patient last!",
+    "clue": "Use the Detective Decoder to determine the \"weapon\" used in the crime.",
+    "patientName": "Kelsey Hall",
+    "explanation": "",
+    "version": "data-entry-1"
+  },
+  "Identification": {
+    "person": "Judge Peacock",
+    "weapon": "Paper Cutter",
+    "challenge": "You are called to the scene of a crime. You bust open the doors of the Identification Room to find the number 8 written in blood on the patient's chest and tossed papers surrounding the body. WHO was with him last?",
+    "clue": "Use the Detective Decoder to determine the \"weapon\" used in the crime.",
+    "patientName": "James Ash",
+    "explanation": "",
+    "version": "identification-1"
+  },
+  "Orders": {
+    "person": "Doctor Scarlet",
+    "weapon": "Ice",
+    "challenge": "There's been a FATAL fall in the Orders Room and a man is dead. Upon arrival you notice there is a medicine bottle that fell from his pocket. It reads:\n\nRx-026822 | OTEZLA 30 MG TABLET\n\nUse this clue to investigate WHO was with him last and the \"reason\" (weapon) that caused his demise.",
+    "clue": "Use the Detective Decoder to solve the reason \"weapon\" in the crime.",
+    "patientName": "Lennie Lesch",
+    "explanation": "",
+    "version": "orders-1"
+  },
+  "AE/PC/OSF": {
+    "person": "Detective Green",
+    "weapon": "Poison",
+    "challenge": "The coroner sends a body to the AE department because there are not any obvious reasons this healthy looking woman is dead. You investigate and find a CONFIRMED Adverse Event matching the (date) and (time). This gives you a clue on WHO (agent) was last with them and WHY (keyword) she died.",
+    "clue": "Murder weapon is the \"keyword\"",
+    "patientName": "Goldie Adams",
+    "explanation": "",
+    "version": "ae-pc-osf-1"
+  },
+  "Supervisors": {
+    "person": "Professor Plum",
+    "weapon": "Magnifying Glass",
+    "challenge": "You are needed in the investigation of the DEATH of a man found in the Supervisors Room. He's the only person seen entering the room. WHO must have had the room LOCKED down? OPEN the CASE REVIEW and find out the reason this case was \"escalated for review\" and the crime will be solved!",
+    "clue": "Use the Detective Decoder to determine the \"weapon\" used in the crime.",
+    "patientName": "John Street",
+    "explanation": "",
+    "version": "supervisors-1"
+  },
+  "Prescription Resolution": {
+    "person": "Doctor Scarlet",
+    "weapon": "Poison",
+    "challenge": "HELP! The janitor was found non-responsive in the Prescription Resolution Room. You notice he has the name \"Gus\" embroidered on his overalls. Use this clue to investigate WHO was with him to solve the crime.",
+    "clue": "No Detective Decoder needed to solve, check his address for the \"weapon\" clue.",
+    "patientName": "Gustav Garcia",
+    "patientAliases": [
+      "Gus Garcia"
+    ],
+    "explanation": "",
+    "version": "prescription-resolution-1"
+  },
+  "Communication Error": {
+    "person": "Professor Plum",
+    "weapon": "Telephone Cord",
+    "challenge": "There's been an incident in the Communication Error Department. You arrive to find a woman already pronounced dead. In her hand is a letter, with a patient case C20260970400. You hit the computer to investigate WHO she is and WHO helped her. Also what led to her \"failure.\"",
+    "clue": "Use the Detective Decoder to solve the reason (weapon) in the crime.",
+    "patientName": "Kathy Dailey",
+    "explanation": "",
+    "version": "communication-error-1"
+  }
+}

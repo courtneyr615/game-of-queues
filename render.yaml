@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: game-of-queues
+    runtime: node
+    plan: starter
+    buildCommand: npm test
+    startCommand: npm start
+    healthCheckPath: /healthz
+    numInstances: 1
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: DATA_FILE
+        value: /var/data/queues-rooms.json
+    disk:
+      name: queues-room-data
+      mountPath: /var/data
+      sizeGB: 1

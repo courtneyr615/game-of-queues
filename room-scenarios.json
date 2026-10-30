@@ -46,12 +46,12 @@
   },
   "AE/PC/OSF": {
     "person": "Detective Green",
-    "weapon": "Poison",
-    "challenge": "The coroner sends a body to the AE department because there are not any obvious reasons this healthy looking woman is dead. You investigate and find a CONFIRMED Adverse Event matching the (date) and (time). This gives you a clue on WHO (agent) was last with them and WHY (keyword) she died.",
+    "weapon": "Candlestick",
+    "challenge": "Sirens have gone off in the AE/PC/OSF Room. You rush to find the female victim, DECEASED! No obvious signs of a struggle or cause of death, so you investigate a CONFIRMED \"Possible AE identified.\" On her phone case she has the name \"Goldie\" engraved.",
     "clue": "Murder weapon is the \"keyword\"",
-    "patientName": "Goldie Adams",
+    "patientName": "Goldie Montgomery",
     "explanation": "",
-    "version": "ae-pc-osf-1"
+    "version": "ae-pc-osf-2"
   },
   "Supervisors": {
     "person": "Professor Plum",

@@ -20,11 +20,11 @@
   "Data Entry": {
     "person": "Special Agent One",
     "weapon": "Computer Mouse",
-    "challenge": "DECEASED body found in the Data Entry Room! Based on the decomposition you can determine the crime happened between 9/10/26 and 9/30/26. The numbers 1040 were on an object found at the scene of the crime. Don't forget to investigate WHO was with the patient last!",
+    "challenge": "DECEASED body found in the Data Entry Room! Based on the decomposition you can determine the crime happened between 9/10/26 and 9/30/26. The numbers 1040 were on an object found at the scene of the crime. Don't forget to investigate who was with the patient last (SUSPECT)! Identify the \"source\" (WEAPON) of her fatal encounter.",
     "clue": "Use the Detective Decoder to determine the \"weapon\" used in the crime.",
     "patientName": "Kelsey Hall",
     "explanation": "",
-    "version": "data-entry-1"
+    "version": "data-entry-2"
   },
   "Identification": {
     "person": "Judge Peacock",

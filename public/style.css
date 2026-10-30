@@ -35,3 +35,5 @@
 #cards{display:block;white-space:pre-line;font:600 14px/1.8 Arial,Helvetica,sans-serif;color:#253a2c;background:#fff8e8;border:1px solid #b8a67c;border-radius:7px;padding:14px;overflow-wrap:anywhere}
 
 #passage-option{margin-top:10px}#passage-option button{width:100%;padding:10px;background:#214b3b;color:#fff;border:1px solid #5a8069;border-radius:7px;font:700 14px/1.4 Arial,sans-serif}
+
+#passage-option{display:grid;gap:8px}#passage-option button+button{background:#8b283b}#modal-actions label{display:block;margin:12px 0}#modal-actions select{display:block;width:100%;margin-top:6px;padding:10px;font:16px Arial}

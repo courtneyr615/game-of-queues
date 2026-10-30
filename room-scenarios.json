@@ -56,11 +56,11 @@
   "Supervisors": {
     "person": "Professor Plum",
     "weapon": "Magnifying Glass",
-    "challenge": "You are needed in the investigation of the DEATH of a man found in the Supervisors Room. He's the only person seen entering the room. WHO must have had the room LOCKED down? OPEN the CASE REVIEW and find out the reason this case was \"escalated for review\" and the crime will be solved!",
+    "challenge": "You are needed in the investigation of the DEATH of a man found in the Supervisors Room! He's the only person seen entering the room. Who (SUSPECT) must have had the room LOCKED down? OPEN the CASE REVIEW and find out the reason this case was \"escalated for review\" (WEAPON) and the crime will be solved!",
     "clue": "Use the Detective Decoder to determine the \"weapon\" used in the crime.",
     "patientName": "John Street",
     "explanation": "",
-    "version": "supervisors-1"
+    "version": "supervisors-2"
   },
   "Prescription Resolution": {
     "person": "Doctor Scarlet",

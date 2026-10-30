@@ -4,8 +4,9 @@
     "weapon": "Multi-tool",
     "challenge": "An approved patient on Repatha with the DOB of 08/12/1961 was found bleeding and without a pulse in the Casework Room. Find out who (SUSPECT) was last assisting the patient and the \"reason\" (WEAPON) they are deceased.",
     "clue": "Use the Detective Decoder to determine the \"weapon\" used in the crime.",
-    "patientName": null,
-    "explanation": ""
+    "patientName": "Judy Leathers",
+    "explanation": "",
+    "version": "casework-2"
   },
   "Desktop": {
     "roomType": "thank-you",
@@ -38,20 +39,20 @@
   "Orders": {
     "person": "Doctor Scarlet",
     "weapon": "Ice",
-    "challenge": "There's been a FATAL fall in the Orders Room and a man is dead! Upon arrival you notice there is a medicine bottle that fell from his pocket. It reads:\n\nRx-026822 | OTEZLA 30 MG TABLET\n\nUse this clue to investigate who (SUSPECT) was with him last and the \"reason\" (WEAPON) for his demise.",
+    "challenge": "There's been a FATAL fall in the Orders Room and a man is dead! Upon arrival you notice there is a medicine bottle that fell from his pocket. It reads:\n\nRx-4718805 | OTEZLA 30 MG TABLET\n10/1/26-10/30/26 Status: ALL\n\nUse this clue to investigate who (SUSPECT) was with him last and the \"reason\" (WEAPON) for his demise.\n\nDETECTIVE BADGE REGISTRY\nID#21 \u2014 Detective Green\nID#417 \u2014 Doctor Scarlet\nID#317 \u2014 Colonel Mustard\nID#158 \u2014 Professor Plum",
     "clue": "Use the Detective Decoder to solve the reason \"weapon\" in the crime.",
     "patientName": "Lennie Lesch",
     "explanation": "",
-    "version": "orders-2"
+    "version": "orders-5"
   },
   "AE/PC/OSF": {
     "person": "Detective Green",
     "weapon": "Poison",
-    "challenge": "Sirens have gone off in the AE/PC/OSF Room. You rush to find the female victim, DECEASED! No obvious signs of a struggle or cause of death, so you investigate a CONFIRMED \"Possible AE identified.\" On her phone case she has the name \"Goldie\" engraved.",
+    "challenge": "Sirens have gone off in the AE/PC/OSF Room! You rush to find the female victim, DECEASED! No obvious signs of a struggle or cause of death, so you investigate a CONFIRMED \"Possible AE identified.\" On her phone case she has the name \"Goldie\" engraved. Who was the agent assisting her AE Resolution (SUSPECT) and what does the Keyword (WEAPON) tell us about her cause of death.",
     "clue": "Murder weapon is the \"keyword\"",
     "patientName": "Goldie Montgomery",
     "explanation": "",
-    "version": "ae-pc-osf-3"
+    "version": "ae-pc-osf-4"
   },
   "Supervisors": {
     "person": "Professor Plum",
@@ -77,10 +78,10 @@
   "Communication Error": {
     "person": "Professor Plum",
     "weapon": "Telephone Cord",
-    "challenge": "There's been an incident in the Communication Error Department. You arrive to find a woman already pronounced DECEASED! In her hand is a letter, with a patient case C20260970400. You hit the computer to investigate who (VICTIM) she is and who (SUSPECT) helped her last. Also what led to her \"failure.\" (WEAPON).",
+    "challenge": "There's been an incident in the Communication Error Department. You arrive to find a woman already pronounced DECEASED! In her hand is a letter, with a patient case C20260970400. You hit the computer to investigate who (VICTIM). Use the time card to determine who (SUSPECT) was working when the fatal error occurred. Also what led to her \"failure.\" (WEAPON).\n\nTIME CARD \u2014 September 1\u20134, 2026\nShift: 10:00 AM\u20134:00 PM each day\n\n9/1/2026 \u2014 Detective Green\n9/2/2026 \u2014 Doctor Scarlet\n9/3/2026 \u2014 Colonel Mustard\n9/4/2026 \u2014 Professor Plum",
     "clue": "Use the Detective Decoder to solve the reason (weapon) in the crime.",
     "patientName": "Kathy Dailey",
     "explanation": "",
-    "version": "communication-error-2"
+    "version": "communication-error-4"
   }
 }

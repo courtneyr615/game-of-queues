@@ -2,7 +2,7 @@
   "Casework": {
     "person": "Colonel Mustard",
     "weapon": "Multi-tool",
-    "challenge": "An approved patient on Repatha with the DOB of 08/12/1961 was found bleeding and without a pulse in the Casework Room. Find out WHO was last assisting the patient and the \"reason\" they are deceased.",
+    "challenge": "An approved patient on Repatha with the DOB of 08/12/1961 was found bleeding and without a pulse in the Casework Room. Find out who (SUSPECT) was last assisting the patient and the \"reason\" (WEAPON) they are deceased.",
     "clue": "Use the Detective Decoder to determine the \"weapon\" used in the crime.",
     "patientName": null,
     "explanation": ""

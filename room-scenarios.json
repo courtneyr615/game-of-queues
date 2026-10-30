@@ -77,10 +77,10 @@
   "Communication Error": {
     "person": "Professor Plum",
     "weapon": "Telephone Cord",
-    "challenge": "There's been an incident in the Communication Error Department. You arrive to find a woman already pronounced dead. In her hand is a letter, with a patient case C20260970400. You hit the computer to investigate WHO she is and WHO helped her. Also what led to her \"failure.\"",
+    "challenge": "There's been an incident in the Communication Error Department. You arrive to find a woman already pronounced DECEASED! In her hand is a letter, with a patient case C20260970400. You hit the computer to investigate who (VICTIM) she is and who (SUSPECT) helped her last. Also what led to her \"failure.\" (WEAPON).",
     "clue": "Use the Detective Decoder to solve the reason (weapon) in the crime.",
     "patientName": "Kathy Dailey",
     "explanation": "",
-    "version": "communication-error-1"
+    "version": "communication-error-2"
   }
 }

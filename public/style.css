@@ -23,3 +23,5 @@
 
 /* Orders faces outward toward the right-hand board edge. */
 .room-nameplate.sideways.edge-right>span{transform:rotate(90deg)}
+
+.next-action{margin:12px 0 18px;padding:16px 20px;border:3px solid #e4b83d;border-radius:12px;background:#fff5cf;color:#25251d;font:700 19px/1.45 Arial,sans-serif;box-shadow:0 3px 10px #0003}.announcements{position:fixed;right:18px;bottom:18px;z-index:1000;width:min(350px,calc(100vw - 36px));padding:14px 18px;border:3px solid #8dbaaa;border-radius:14px;background:#183e35;color:#fff;box-shadow:0 6px 24px #0006;font:600 16px/1.45 Arial,sans-serif}.announcements[hidden]{display:none}.announcements p{margin:0 0 8px}.announcements button{background:#fff;color:#183e35;font-size:13px;padding:6px 12px}.announcements.in-dialog{position:static;width:auto;margin:0 0 14px;box-shadow:none;font-size:14px}

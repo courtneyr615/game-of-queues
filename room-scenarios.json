@@ -29,11 +29,11 @@
   "Identification": {
     "person": "Judge Peacock",
     "weapon": "Paper Cutter",
-    "challenge": "You are called to the scene of a crime. You bust open the doors of the Identification Room to find the number 8 written in blood on the patient's chest and tossed papers surrounding the body. WHO was with him last?",
+    "challenge": "You are called to the scene of a crime!!! You bust open the doors of the Identification Room to find the number 4 written in blood on the patient's chest and tossed papers surrounding the body. Who (SUSPECT) was helping him last? What is the document that led to his murder (WEAPON)?",
     "clue": "Use the Detective Decoder to determine the \"weapon\" used in the crime.",
     "patientName": "James Ash",
     "explanation": "",
-    "version": "identification-1"
+    "version": "identification-2"
   },
   "Orders": {
     "person": "Doctor Scarlet",

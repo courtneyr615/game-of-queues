@@ -38,11 +38,11 @@
   "Orders": {
     "person": "Doctor Scarlet",
     "weapon": "Ice",
-    "challenge": "There's been a FATAL fall in the Orders Room and a man is dead. Upon arrival you notice there is a medicine bottle that fell from his pocket. It reads:\n\nRx-026822 | OTEZLA 30 MG TABLET\n\nUse this clue to investigate WHO was with him last and the \"reason\" (weapon) that caused his demise.",
+    "challenge": "There's been a FATAL fall in the Orders Room and a man is dead! Upon arrival you notice there is a medicine bottle that fell from his pocket. It reads:\n\nRx-026822 | OTEZLA 30 MG TABLET\n\nUse this clue to investigate who (SUSPECT) was with him last and the \"reason\" (WEAPON) for his demise.",
     "clue": "Use the Detective Decoder to solve the reason \"weapon\" in the crime.",
     "patientName": "Lennie Lesch",
     "explanation": "",
-    "version": "orders-1"
+    "version": "orders-2"
   },
   "AE/PC/OSF": {
     "person": "Detective Green",

@@ -39,3 +39,12 @@
 #passage-option{display:grid;gap:8px}#passage-option button+button{background:#8b283b}#modal-actions label{display:block;margin:12px 0}#modal-actions select{display:block;width:100%;margin-top:6px;padding:10px;font:16px Arial}
 
 .decoder-panel{display:block;background:#152a29;color:#fff;border:2px solid #927a47;border-radius:9px;padding:14px;margin:12px 0;white-space:normal;font:600 14px/1.6 Arial,sans-serif}.decoder-panel>strong{display:block;color:#fff;margin-bottom:12px;font-size:14px}.decoder-row{display:block;padding:8px 0;border-top:1px solid #ffffff29}.decoder-keyword{color:#ff8181;font-weight:800}.decoder-weapon{color:#ffe261;font-weight:800}.decoder-equals{color:#f3f3e8}
+
+/* Keep the next roll available inside the movement panel, above the board dice. */
+.board-move:has(.movement-roll-control:not([hidden])){top:50%;transform:translate(-50%,-50%);max-height:82%}
+.board-move .movement-roll-control{display:block;width:100%;margin:12px 0 0;padding:8px;border:2px solid #80643f;border-radius:9px;background:#214b3b;color:#fff;cursor:pointer}
+.board-move .movement-roll-control .dice-tray{display:flex;justify-content:center;gap:10px;padding:6px}
+.board-move .movement-roll-control .die{width:42px;height:42px;flex-shrink:0}
+.board-move .movement-roll-control .dice-prompt{font:700 14px/1.4 Arial;max-width:none;padding:7px;color:#fff}
+.board-move .movement-roll-control:hover{background:#346e5d}
+.board-move .movement-roll-control:focus-visible{outline:3px solid #e4b83d;outline-offset:3px}

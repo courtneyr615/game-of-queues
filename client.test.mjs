@@ -16,3 +16,15 @@ popupPlayer.pos='r4';popupPlayer.rolled=false;popupPlayer.moves=0;popupPlayer.pe
 
 // Solved destinations, including a secret passage, are omitted from movement choices.
 popupPlayer.pos='r8';popupPlayer.rolled=true;popupPlayer.moves=100;popupPlayer.solved[0]=true;popupPlayer.solved[3]=true;r.version++;await refresh();const choices=ds[0].els.get('room-options').children.filter(x=>x.tag==='button');assert(!choices.some(x=>x.textContent.startsWith('Casework ·')||x.textContent.startsWith('Data Entry ·')||x.textContent.startsWith('Use secret passage to Casework')));assert(choices.some(x=>x.textContent.startsWith('Orders ·')));console.log('PASS: solved rooms and solved passage destinations are omitted from reachable-room choices.');
+
+// Render can return an HTML restart/error page instead of an API response.
+const apiSource=source.slice(source.indexOf('async function api('),source.indexOf('\nfunction accept'));
+async function checkApi(responses,body){let calls=0;const context=vm.createContext({session:null,fetch:async()=>{const value=responses[Math.min(calls++,responses.length-1)];if(value instanceof Error)throw value;return value},setTimeout:fn=>fn()});vm.runInContext(apiSource,context);try{return{value:await vm.runInContext('api("/api/state",'+JSON.stringify(body)+')',context),calls}}catch(error){return{error,calls}}}
+const htmlResponse={ok:false,status:502,json:async()=>{throw new SyntaxError('Unexpected token <')}};
+const goodResponse={ok:true,status:200,json:async()=>({connected:true})};
+const recovered=await checkApi([htmlResponse,goodResponse]);assert.equal(recovered.value.connected,true);assert.equal(recovered.calls,2);
+const unavailable=await checkApi([htmlResponse]);assert.equal(unavailable.calls,3);assert.match(unavailable.error.message,/temporarily unavailable or restarting/);assert(!unavailable.error.message.includes('Unexpected token'));
+const mutation=await checkApi([htmlResponse],{type:'create'});assert.equal(mutation.calls,1);
+const networkRecovered=await checkApi([new Error('network offline'),goodResponse]);assert.equal(networkRecovered.calls,2);assert(networkRecovered.value.connected);
+const invalidRoom=await checkApi([{ok:false,status:400,json:async()=>({error:'Room not found.'})}]);assert.equal(invalidRoom.calls,1);assert.equal(invalidRoom.error.message,'Room not found.');
+console.log('PASS: temporary HTML/network errors retry safe reads, display friendly failures, never replay writes, and preserve game validation errors.');

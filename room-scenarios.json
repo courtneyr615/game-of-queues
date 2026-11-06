@@ -66,7 +66,7 @@
   "Prescription Resolution": {
     "person": "Judge Peacock",
     "weapon": "Candlestick",
-    "challenge": "HELP! The janitor was found non-responsive in the Prescription Resolution Room. You notice he has the name \"Gus\" embroidered on his overalls. Use this clue to investigate who (SUSPECT) was with him to solve the crime. Review the patient information IN the queue to determine his cause of death (WEAPON)!",
+    "challenge": "HELP! The janitor was found non-responsive in the Prescription Resolution Room. You notice he has the name \"Gus\" embroidered on his overalls. Use this clue to investigate who (SUSPECT) was with him to solve the crime. Scan the patient information and find a keyword on the Detective Decoder to determine his cause of death (WEAPON)!",
     "clue": "The WEAPON is his street name.",
     "patientName": "Gustav Garcia",
     "patientAliases": [

@@ -64,7 +64,7 @@
     "version": "supervisors-2"
   },
   "Prescription Resolution": {
-    "person": "Doctor Scarlet",
+    "person": "Judge Peacock",
     "weapon": "Candlestick",
     "challenge": "HELP! The janitor was found non-responsive in the Prescription Resolution Room. You notice he has the name \"Gus\" embroidered on his overalls. Use this clue to investigate who (SUSPECT) was with him to solve the crime. Review the patient information IN the queue to determine his cause of death (WEAPON)!",
     "clue": "The WEAPON is his street name.",

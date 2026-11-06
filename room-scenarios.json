@@ -28,22 +28,22 @@
     "version": "data-entry-2"
   },
   "Identification": {
-    "person": "Judge Peacock",
+    "person": "Detective Green",
     "weapon": "Paper Cutter",
-    "challenge": "You are called to the scene of a crime!!! You bust open the doors of the Identification Room to find the number 4 written in blood on the patient's chest and tossed papers surrounding the body. Who (SUSPECT) was helping him last? What is the document that led to his murder (WEAPON)?",
+    "challenge": "You are called to the scene of a crime!!! You bust open the doors of the Identification Room to find the number 3 written in blood on the patient's chest and tossed papers surrounding the body. Who (SUSPECT) was helping him last? What is the document that led to his murder (WEAPON)?",
     "clue": "Use the Detective Decoder to determine the \"weapon\" used in the crime.",
     "patientName": "James Ash",
     "explanation": "",
-    "version": "identification-2"
+    "version": "identification-4"
   },
   "Orders": {
     "person": "Doctor Scarlet",
     "weapon": "Ice",
     "challenge": "There's been a FATAL fall in the Orders Room and a man is dead! Upon arrival you notice there is a medicine bottle that fell from his pocket. It reads:\n\nRx-4718805 | OTEZLA 30 MG TABLET\n10/1/26-10/30/26 Status: ALL\n\nUse this clue to investigate who (SUSPECT) was with him last and the \"reason\" (WEAPON) for his demise.\n\nDETECTIVE BADGE REGISTRY\nID#21 \u2014 Detective Green\nID#417 \u2014 Doctor Scarlet\nID#317 \u2014 Colonel Mustard\nID#158 \u2014 Professor Plum",
     "clue": "Use the Detective Decoder to solve the reason \"weapon\" in the crime.",
-    "patientName": "Lennie Lesch",
+    "patientName": "Jay Borer",
     "explanation": "",
-    "version": "orders-5"
+    "version": "orders-6"
   },
   "AE/PC/OSF": {
     "person": "Detective Green",

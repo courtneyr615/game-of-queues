@@ -39,7 +39,7 @@
   "Orders": {
     "person": "Doctor Scarlet",
     "weapon": "Ice",
-    "challenge": "There's been a FATAL fall in the Orders Room and a man is dead! Upon arrival you notice there is a medicine bottle that fell from his pocket. It reads:\n\nRx-4718805 | OTEZLA 30 MG TABLET\n10/1/26-10/30/26 Status: ALL\n\nUse this clue to investigate who (SUSPECT) was with him last and the \"reason\" (WEAPON) for his demise.\n\nDETECTIVE BADGE REGISTRY\nID#21 \u2014 Detective Green\nID#417 \u2014 Doctor Scarlet\nID#317 \u2014 Colonel Mustard\nID#158 \u2014 Professor Plum",
+    "challenge": "There's been a FATAL fall in the Orders Room and a man is dead! Upon arrival you notice there is a package marked RETURN with a medicine bottle inside. It reads:\n\nC2026106551 11/5/26\nOTEZLA 30 MG TABLET\n26550 Leffler Summit\nPort Oswaldport, VA 12446\n\nUse this clue to investigate who (SUSPECT) was with him last and the \"reason\" (WEAPON) for his demise.\n\nDETECTIVE BADGE REGISTRY\nID#21 \u2014 Detective Green\nID#417 \u2014 Doctor Scarlet\nID#317 \u2014 Colonel Mustard\nID#158 \u2014 Professor Plum",
     "clue": "Use the Detective Decoder to solve the reason \"weapon\" in the crime.",
     "patientName": "Jay Borer",
     "explanation": "",

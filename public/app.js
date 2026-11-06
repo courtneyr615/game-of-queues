@@ -50,3 +50,5 @@ if(session&&localStorage.getItem('queuesRejoinAvailable')!=='true')connect();
 
 
 {const maroonStyle=document.createElement('style');maroonStyle.textContent="/* Maroon challenge text panels. */\n#modal.crime-report #modal-text,.board-challenge>p:first-of-type,#scenario>p:first-of-type{background:#722438;color:#fff;border:1px solid #933d52;border-radius:8px;padding:18px 20px;font:16px/1.65 Arial,Helvetica,sans-serif;white-space:pre-line}\n#modal.crime-report #modal-text .decoder-panel{white-space:normal}\n";document.head?.append(maroonStyle)}
+
+{const mintDecoderStyle=document.createElement('style');mintDecoderStyle.textContent='.decoder-panel .decoder-keyword{color:#a2e8cd}';document.head?.append(mintDecoderStyle)}
